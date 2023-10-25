@@ -4,7 +4,7 @@ Movie booking, searching, rating app Backend
 
 - `POST /addMovie`: Add a new movie.
 - `POST /ticket/book` : Book a ticket
-- `POST /ticket/{if}` : Get the booked ticket
+- `POST /ticket` : Get the booked ticket
 - `PUT /updateMovie`: Update movie details.
 - `DELETE /deleteMovie`: Delete a movie.
 - `POST /addTheater`: Add a new theater.
