@@ -3,6 +3,8 @@ Movie booking, searching, rating app Backend
 ## APIs
 
 - `POST /addMovie`: Add a new movie.
+- `POST /ticket/book` : Book a ticket
+- `POST /ticket/{if}` : Get the booked ticket
 - `PUT /updateMovie`: Update movie details.
 - `DELETE /deleteMovie`: Delete a movie.
 - `POST /addTheater`: Add a new theater.
@@ -15,3 +17,5 @@ Movie booking, searching, rating app Backend
 - `GET /SearchByCity`: Search for shows in a specific city.
 - `GET /SearchByShow`: Search for shows.
 - `GET /searchUser`: Search for users.
+
+  Postman collection added in the root folder, import to use all apis.
